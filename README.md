@@ -1,6 +1,8 @@
-# SICGAS – Sistema Inteligente de Consumo de Gás
+# [SICGAS – Sistema Inteligente de Consumo de Gás](https://digcard.github.io/sicgas/)
 
 SICGAS é um sistema inteligente para entregadores e revendas de gás GLP. Ele permite prever o consumo dos clientes, antecipar entregas, aumentar vendas e fidelizar clientes, tudo de forma simples e automatizada.
+
+> 👉 [visite o site do SICGAS](https://digcard.github.io/sicgas/)
 
 ## 🚀 Download do Executável
 
@@ -22,7 +24,7 @@ Para que o SICGAS registre e acompanhe os dados dos clientes, é necessário con
 
 1. **Crie uma nova planilha** no Google Sheets com as colunas necessárias exactamente com os seguintes nomes: `Cliente` e `Data_entrega`.
 
-   ![alt text](./assets/doc/sheet.png)
+   ![alt text](./docs/img/sheet.png)
 
 2. **Compartilhe a planilha** 
 
@@ -30,7 +32,7 @@ Para que o SICGAS registre e acompanhe os dados dos clientes, é necessário con
       - Acesse https://sheets.google.com e abra a planilha que deseja compartilhar.
    - 2.2 Clique em “Compartilhar” (botão azul no canto superior direito)
 
-      ![alt text](./assets/doc/sheet_share.png)
+      ![alt text](./docs/img/sheet_share.png)
 
    - 2.3. Na janela que abrir, clique em “Qualquer pessoa com o link”
 Se não aparecer, clique em “Alterar para qualquer pessoa com o link”.
@@ -38,7 +40,7 @@ Se não aparecer, clique em “Alterar para qualquer pessoa com o link”.
       - Ao lado de “Qualquer pessoa com o link”, clique no menu suspenso (normalmente aparece como “Editor” ou “Leitor”).
       - Selecione Leitor.
 
-      ![alt text](./assets/doc/sheet_link.png)
+      ![alt text](./docs/img/sheet_link.png)
 
    - 2.5. Copie o link
       - Clique em “Copiar link”.
