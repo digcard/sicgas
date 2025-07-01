@@ -1,99 +1,45 @@
-# SICGAS - Sistema inteligente de Previsão de consumo de Gás
+# SICGAS – Sistema Inteligente de Consumo de Gás
 
-## Descrição
-O Sistema de Previsão de Entrega de Gás é uma aplicação desenvolvida para gerenciar e prever entregas de gás, auxiliando na organização e planejamento das entregas para diferentes clientes.
+SICGAS é um sistema inteligente para entregadores e revendas de gás GLP. Ele permite prever o consumo dos clientes, antecipar entregas, aumentar vendas e fidelizar clientes, tudo de forma simples e automatizada.
 
-## Funcionalidades
+## 🚀 Download do Executável
 
-### 1. Visualização de Entregas
-- **Entregados**: Lista de clientes com entregas já realizadas
-- **Entregar Hoje**: Clientes com previsão de entrega para o dia atual
-- **Próximos Dias**: Previsões de entrega para os próximos dias
-- **Final de Semana**: Entregas previstas para o final de semana
-- **Estatísticas**: Visualização de dados estatísticos
+O executável do SICGAS estará disponível para download diretamente neste repositório, na seção [Releases](../../releases) ou no link abaixo:
 
-### 2. Filtros e Pesquisa
-- Filtro por data usando DatePicker
-- Seleção de cliente específico
-- Diferentes tipos de visualização (Linha, Barras, Dispersão)
+👉 [Baixar SICGAS para Windows](./SICGAS.exe) *(link será atualizado quando o arquivo estiver disponível)*
 
-### 3. Exportação de Dados
-- Exportação de relatórios em formato CSV
-- Dados formatados no padrão brasileiro
-- Relatórios organizados por data e hora
+> **Compatível com Windows 10/11**
 
-## Requisitos do Sistema
-- Python 3.x
-- Bibliotecas necessárias:
-  - flet
-  - pandas
-  - statsmodels
-  - plotly
-  - numpy
+## 🛠️ Como Usar o SICGAS
 
-## Configuração
+1. **Faça o download** do arquivo executável `SICGAS.exe`.
+2. **Execute o instalador** e siga as instruções na tela.
+3. O sistema irá solicitar a configuração da sua planilha Google para registro dos clientes e entregas.
 
-### Instalação
-1. Clone o repositório
-2. Instale as dependências:
-```bash
-pip install -r requirements.txt
-```
+## 📊 Configuração da Planilha Google
 
-### Configuração do Google Sheets
-O sistema utiliza uma planilha do Google Sheets como fonte de dados. Configure o ID da planilha no arquivo `entrega_gas.py`:
-```python
-spreadsheet_id = "seu_id_da_planilha"
-```
+Para que o SICGAS registre e acompanhe os dados dos clientes, é necessário conectar uma planilha Google. Siga os passos abaixo:
 
-## Uso
+1. **Crie uma nova planilha** no Google Sheets com as colunas necessárias (exemplo: Nome, Endereço, Telefone, Data da Última Entrega, etc).
 
-### Iniciando o Sistema
-Execute o arquivo principal:
-```bash
-python entrega_gas.py
-```
+2. **Compartilhe a planilha** com o e-mail do serviço do SICGAS (o programa irá informar qual e-mail usar para compartilhamento, geralmente algo como `sicgas@project.iam.gserviceaccount.com`).
 
-### Navegação
-1. **Seleção de Data**
-   - Use o calendário para escolher a data desejada
-   - A data atual é selecionada por padrão
+3. **No SICGAS**, insira o link da planilha quando solicitado.
 
-2. **Filtragem de Clientes**
-   - Selecione um cliente específico no dropdown
-   - Use a opção "Todos" para ver todos os clientes
+4. O sistema irá validar o acesso e começar a registrar automaticamente os dados das entregas e previsões de consumo.
 
-3. **Visualização de Dados**
-   - Alterne entre as diferentes abas para ver diferentes aspectos dos dados
-   - Use os botões de exportação para gerar relatórios
+> **Dica:** O próprio programa mostra o passo a passo para conectar sua planilha Google na primeira execução.
 
-## Estrutura de Arquivos
-```
-entrega_gas/
-├── entrega_gas.py     # Arquivo principal
-├── requirements.txt   # Dependências
-├── docs/             # Documentação
-└── relatorios/       # Relatórios exportados
-```
+## 📞 Suporte
 
-## Logs e Depuração
-Os logs do sistema são salvos em:
-- Windows: `%LOCALAPPDATA%\gas_logs`
-- Linux/Mac: `/tmp/gas_logs`
+Em caso de dúvidas ou problemas, entre em contato pelo WhatsApp:
 
-## Contribuição
-Para contribuir com o projeto:
-1. Fork o repositório
-2. Crie uma branch para sua feature
-3. Faça commit das mudanças
-4. Push para a branch
-5. Abra um Pull Request
+[Suporte WhatsApp](https://wa.me/5527988384017?text=Tenho%20d%C3%BAvidas%20sobre%20o%20SICGAS)
 
-## Suporte
-Em caso de problemas:
-1. Verifique os logs do sistema
-2. Confirme as configurações da planilha
-3. Verifique a conexão com internet
+## 📢 Contribua
 
-## Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Sugestões, bugs ou melhorias? Abra uma issue ou envie um pull request!
+
+---
+
+**SICGAS – Antecipe-se. Fidelize. Venda mais.**
