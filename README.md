@@ -6,9 +6,9 @@ SICGAS é um sistema inteligente para entregadores e revendas de gás GLP. Ele p
 
 O executável do SICGAS estará disponível para download diretamente neste repositório, na seção [Releases](../../releases) ou no link abaixo:
 
-👉 [Baixar SICGAS para Windows](./SICGAS.exe) *(link será atualizado quando o arquivo estiver disponível)*
+> 👉 [Baixar SICGAS para Windows](./SICGAS.exe)
 
-> **Compatível com Windows 10/11**
+- **Compatível com Windows 10/11**
 
 ## 🛠️ Como Usar o SICGAS
 
@@ -20,9 +20,28 @@ O executável do SICGAS estará disponível para download diretamente neste repo
 
 Para que o SICGAS registre e acompanhe os dados dos clientes, é necessário conectar uma planilha Google. Siga os passos abaixo:
 
-1. **Crie uma nova planilha** no Google Sheets com as colunas necessárias (exemplo: Nome, Endereço, Telefone, Data da Última Entrega, etc).
+1. **Crie uma nova planilha** no Google Sheets com as colunas necessárias exactamente com os seguintes nomes: `Cliente` e `Data_entrega`.
 
-2. **Compartilhe a planilha** com o e-mail do serviço do SICGAS (o programa irá informar qual e-mail usar para compartilhamento, geralmente algo como `sicgas@project.iam.gserviceaccount.com`).
+   ![alt text](./assets/doc/sheet.png)
+
+2. **Compartilhe a planilha** 
+
+   - 2.1 Abra sua planilha no Google Sheets
+      - Acesse https://sheets.google.com e abra a planilha que deseja compartilhar.
+   - 2.2 Clique em “Compartilhar” (botão azul no canto superior direito)
+
+      ![alt text](./assets/doc/sheet_share.png)
+
+   - 2.3. Na janela que abrir, clique em “Qualquer pessoa com o link”
+Se não aparecer, clique em “Alterar para qualquer pessoa com o link”.
+   - 2.4. Altere a permissão para `“Leitor”`
+      - Ao lado de “Qualquer pessoa com o link”, clique no menu suspenso (normalmente aparece como “Editor” ou “Leitor”).
+      - Selecione Leitor.
+
+      ![alt text](./assets/doc/sheet_link.png)
+
+   - 2.5. Copie o link
+      - Clique em “Copiar link”.
 
 3. **No SICGAS**, insira o link da planilha quando solicitado.
 
