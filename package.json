@@ -1,0 +1,38 @@
+{
+    "name": "sicgas-landing",
+    "version": "1.0.0",
+    "description": "SICGAS – Sistema Inteligente de Consumo de Gás. Antecipe-se às necessidades dos clientes, aumente vendas e otimize entregas de gás GLP.",
+    "main": "index.js",
+    "scripts": {
+      "start:tailwind": "cross-env NODE_ENV=development tailwindcss --postcss -i tailwind.css -o tailwind-runtime.css -w",
+      "build:tailwind": "cross-env NODE_ENV=production tailwindcss --postcss -i tailwind.css -o tailwind-build.css --minify",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "SICGAS",
+      "sistema inteligente de gás",
+      "entregador de gás",
+      "revenda de gás",
+      "previsão de consumo de gás",
+      "automação de entregas de gás",
+      "gestão de entregas de gás",
+      "aumentar vendas de gás",
+      "fidelização de clientes gás",
+      "software para gás GLP",
+      "proatividade em vendas de gás",
+      "controle de estoque de gás",
+      "rota de entregas otimizada",
+      "gás GLP",
+      "aplicativo para entregadores de gás"
+    ],
+    "author": "Equipe SICGAS",
+    "license": "MIT",
+    "devDependencies": {
+      "tailwindcss": "^3.4.1"
+    },
+    "dependencies": {
+      "postcss": "^8.4.33",
+      "postcss-simple-vars": "^7.0.1"
+    }
+  }
+  
