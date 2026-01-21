@@ -1,4 +1,6 @@
-# SICGAS – Sistema Inteligente de Consumo de Gás
+# SICGAS – Sistema Inteligente de Consumo de Gás GLP para entregadores
+
+![](./assets/images/sicgas.png)
 
 SICGAS é um sistema inteligente para entregadores e revendas de gás GLP. Ele permite prever o consumo dos clientes, antecipar entregas, aumentar vendas e fidelizar clientes, tudo de forma simples e automatizada.
 
